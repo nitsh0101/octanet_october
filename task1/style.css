@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header .navbar {
+    background-color: #000;
+}
+
+#header .navbar a {
+    color: #fff;
+    margin-right: 30px;
+}
+
+#main .main-img img {
+    width: 100%;
+    height: 50%;
+}
+
+#main .main-img {
+    position: relative;
+
+}
+
+#main h1 {
+    font-size: 5rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+#main button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: #0066f4;
+    font-size: 2rem;
+    border: 3px solid black;
+    border-radius: 15px 50px;
+    padding: 0 20px;
+}
+
+#destinations {
+    text-align: center;
+}
+
+#destinations img {
+    margin: 20px 20px;
+}
+
+#destinations img:hover {}
+
+#contact {
+    text-align: left;
+    color: #fff;
+    background-image: url(./img/carousel-1.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+#contact .contact-box {
+    padding-top: 10%;
+    padding-left: 20%;
+}
+
+#contact .contact-box .background {
+    background-color: #000000;
+    height: 90%;
+    width: 40%;
+
+}
+
+#contact .contact-box .background form {
+    padding: 10%;
+}
+
+#contact button {
+    position: relative;
+    color: #fff;
+    background-color: #0015fd;
+    font-size: 2rem;
+    border: 3px solid black;
+    border-radius: 15px 50px;
+    padding: 0 20px;
+    margin: 15px 0;
+}
+
+#contact .user-box {
+    margin: 15px 0;
+}
+
+#contact .user-box input {
+    border: none;
+    border-bottom: 2px solid #0532ff;
+    padding: 0 50px 0 0;
+    fill: none;
+    background: transparent;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #000;
+    margin-bottom: 0;
+    padding: 50px 100px;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #fff;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copyrignt {
+    width: 100%;
+    text-align: center;
+}
